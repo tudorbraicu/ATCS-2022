@@ -1,0 +1,42 @@
+.main {
+    min-height: 100vh;
+    margin: 0;
+    display:grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+}
+
+.aboutme-text {
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.col-1{
+    grid-column-end: 2;
+}
+
+img {
+    position: fixed;
+    top: 30%;
+    width: 500px;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    grid-column: 2/3;
+}
+
+.header{
+    border:10px solid green;
+}
+
+.footer{
+    border: 10px solid green;
+}
+
+.content{
+    border: 10px solid peachpuff;
+}
