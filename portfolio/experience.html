@@ -2,49 +2,88 @@
 <html>
 
 <head>
-  <!--used title tag instead of h1 tag-->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Your Personal CSS BELOW this Line -->
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>TB - Experience</title>
-  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="experience-body">
-  <div id="header">
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link" href="about.html">About me</a></li>
-        <li><a class="nav-link active" href="experience.html">Experience</a></li>
-        <li><a class="nav-link" href="contact.html">Contact</a></li>
+<body class="contact-body">
+  <!--navbar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">TB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="experience.html">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
       </ul>
-    </nav>
-  </div>
+    </div>
+  </nav>
 
-  <div class="content split left">
-    <div class="events flex">
-      <h1>Experience</h1>
-      <div class="event">
-        <div class="event-header">2020-present: SV Zehlendorfer Wespen</div>
-        <div class="event-detail">
-          Summer 2022: Won 3 Tournaments and reached a USTA ranking high of 335.<br />
-          2nd place National tournament with Menlo School Tennis Team<br />
+
+  <div class="container">
+    <div class="jumbotron text-center back-image">
+      <h1 class="white">Experience</h1>
+    </div>
+
+    <div class="overflow-auto">
+      <div class="d-flex flex-row mb-1">
+        <div class="p-2 text-wrap col-sm-6">
+          <div class="event-header">
+            2020-present: SV Zehlendorfer Wespen
+          </div>
+          Summer 2022: Won 3 Tournaments and reached a USTA ranking high of 335.
+          2nd place National tournament with Menlo School Tennis Team
         </div>
       </div>
-      <div class="event flex-right">
-        <div class="event-header">2019-2020: Tennis Club SCC</div>
-        <div class="event-detail">
-          Winter 2019/2020 Signed Wilson Contract for 2 years<br />
-          Qualified with Men's Team to Ostliga (4th League in German Tennis)
+
+      <div class="d-flex flex-row-reverse">
+        <div class="p-2 text-wrap col-sm-6">
+          <div class="event-header text-wrap">
+            2019-2020: Tennis Club SCC
+          </div>
+          <div>
+            Winter 2019/2020 Signed Wilson Contract for 2 years.
+            Qualified with Men's Team to Ostliga (4th League in German Tennis)
+          </div>
         </div>
       </div>
-      <div class="event">
-        <div class="event-header">2018-2019: Tennis Club 1899 Blau Weiss</div>
-        <div class="event-detail">
+
+      <div class="d-flex flex-row mb-1">
+        <div class="p-2 text-wrap col-sm-6">
+          <div class="event-header">
+            2018-2019: Tennis Club 1899 Blau Weiss
+          </div>
           Summer 2019: Reached Germany's Top 30
         </div>
       </div>
-      <div class="event flex-right">
-        <div class="event-header">2014-2018: Tennis Club SCC Berlin</div>
-        <div class="event-detail">
+
+      <div class="d-flex flex-row-reverse">
+        <div class="p-2 text-wrap col-sm-6">
+          <div class="event-header">
+            2014-2018: Tennis Club SCC Berlin
+          </div>
           Summer 2018: Won my first ever Adult Tennis Match<br />
           2015: 1st Place Berlin Team Championship u12<br />
           2016: 1st Place Berlin Team Championship u14<br />
@@ -53,25 +92,58 @@
           Multiple Tournaments wins
         </div>
       </div>
-      <div class="event">
-        <div class="event-header">2012-2014: LTTC Rot Weiss.</div>
-        <div class="event-detail">
+
+      <div class="d-flex flex-row mb-1">
+        <div class="p-2 text-wrap col-sm-6">
+          <div class="event-header">
+            2012-2014: LTTC Rot Weiss
+          </div>
           2014: 2nd Place Berlin Team Championships
         </div>
       </div>
-      <div class="event flex-right">
-        <div class="event-header">2008-2012: Tennis Club Ciprian Porumb</div>
-        <div class="event-detail">
+
+      <div class="d-flex flex-row-reverse">
+        <div class="p-2 text-wrap col-sm-6">
+          <div class="event-header">
+            2008-2012: Tennis Club Ciprian Porumb
+          </div>
           Won my first ever Tennis match
         </div>
       </div>
+
     </div>
-  </div>
+    <!-- Use of Bootstrap card class + two col-x-x use-->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Current Ranking</h5>
+            <p class="card-text">Check out my newest USTA, Dunlop RPI and Head Recruiting List ranking</p>
+            <a href="https://www.tennisrecruiting.net/player/overview.asp?id=1015418" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Current Club</h5>
+            <p class="card-text">Check out the current club that I'm playing for(located in the south of Berlin).</p>
+            <a href="https://www.wespen.berlin/" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <div class="split right experience-image">
-  </div>
-
-
+    <!-- Stuff from Bootstrap Lab03 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
